@@ -21,6 +21,5 @@ public class StreamsExample {
                 })
                 .collect(Collectors.toMap(Student::getName, Student::getActivities));
         System.out.println(studentMap);
-
     }
 }
